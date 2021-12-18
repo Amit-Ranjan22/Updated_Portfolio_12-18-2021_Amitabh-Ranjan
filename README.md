@@ -53,7 +53,7 @@ The following image is the screenshot of the deployed portfolio:
 
 ---
 
-- Portfolio Link: [Portfolio-Amitabh_Ranjan](https://developer-tech-blog.herokuapp.com/)
+- Portfolio Link: [Portfolio-Amitabh_Ranjan](https://amit-ranjan22.github.io/Updated_Portfolio_12-18-2021_Amitabh-Ranjan/)
 
 ---
 
