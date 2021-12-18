@@ -34,8 +34,7 @@ THEN: he/she is presented with a section at bottom of the page which says "creat
 WHEN: the employer click one of the links in the navigation
 THEN: the UI scrolls to the corresponding section.
 WHEN: the employer click on the images of the applications
-THEN: he is taken to that deployed application
-WHEN:
+THEN: he is taken to that deployed application.
 ```
 
 ---
@@ -46,7 +45,7 @@ WHEN:
 
 The following image is the screenshot of the deployed portfolio:
 
-![Portfolio-Screenshot-Amitabh_Ranjan](./assets/developers-tech-blog-deployedApp-screenshot.png)
+![Portfolio-Screenshot-Amitabh_Ranjan](./images/deployed-portfolio-pic1.png)
 
 ---
 
@@ -63,7 +62,7 @@ The following image is the screenshot of the deployed portfolio:
 ---
 
 - GitHub Link: [
-  Portfolio-Amitabh_Ranjan](https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git)
+  Portfolio-Amitabh_Ranjan](https://github.com/Amit-Ranjan22/Updated_Portfolio_12-18-2021_Amitabh-Ranjan.git)
 
 ---
 
