@@ -1,440 +1,648 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="site-main-wrapper">
-        <button class="hamberger">
-            <img src="./images/hamberger.svg" alt="">
-        </button>
+      <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="" />
+      </button>
 
-        <div class="mobile-nav">
-            <button class="times"><img src="./images/times.svg" alt=""></button>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="resume/Resume_Amitabh_Ranjan.pdf">Resume</a></li>
-            </ul>
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="resume/Resume_Amitabh_Ranjan.pdf">Resume</a></li>
+        </ul>
+      </div>
+
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <img src="images/logo.svg" alt="logo-image" />
+              </div>
+              <div>
+                <a href="#about">About Me</a>
+                <a href="#my-work">My Work</a>
+                <a href="resume/Resume_Amitabh_Ranjan.pdf">Resume</a>
+                <a href="https://github.com/Amit-Ranjan22">GitHub</a>
+                <a href="https://www.linkedin.com/in/amitabh-ranjan-45549621a/"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+            <div id="contact-me" class="right">
+              <a href="#contactt-me">Contact Me</a>
+            </div>
+          </nav>
+          <div class="myImage flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="images/Amit-Pic.png" alt="Amit-Pic1" />
+            </div>
+            <div class="right flex-1">
+              <h6>Amitabh Ranjan</h6>
+              <h1>I'm a Full-Stack <br /><span>Web-Developer</span></h1>
+              <p>
+                Adaptability is the keyword which has become the all
+                encompassing factor touching upon every aspect of my life since
+                last few years of my life, be it social, personal or
+                professional!.
+              </p>
+              <div>
+                <a
+                  href="resume/Resume_Amitabh_Ranjan.pdf"
+                  download="Amitabh-Ranjan-resume"
+                  ><button class="btn btn-secondary">DOWNLOAD RESUME</button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </header>
 
-        <header>
-            <div class="container">
-                <nav id="main-nav" class="flex items-center justify-between">
-                    <div class="left flex items-center">
-                        <div class="branding">
-                            <img src="images/logo.svg" alt="logo-image" />
-                        </div>
-                        <div>
-                            <a href="#about">About Me</a>
-                            <a href="#my-work">My Work</a>
-                            <a href="resume/Resume_Amitabh_Ranjan.pdf">Resume</a>
-                            <a href="https://github.com/Amit-Ranjan22">GitHub</a>
-                            <a href="https://www.linkedin.com/in/amitabh-ranjan-45549621a/">LinkedIn</a>
-                        </div>
-                    </div>
-                    <div id="contact-me" class="right">
-                        <a href="#contactt-me">Contact Me</a>
-                    </div>
-                </nav>
-                <div class="myImage flex items-center justify-between">
-                    <div class="left flex-1 flex justify-center">
-                        <img src="images/Amit-Pic.png" alt="Amit-Pic1" />
-                    </div>
-                    <div class="right flex-1">
-                        <h6>Amitabh Ranjan</h6>
-                        <h1>I'm a Full-Stack <br /><span>Web-Developer</span></h1>
-                        <p>
-                            Adaptability is the keyword which has become the all encompassing factor touching upon every
-                            aspect of my life since last few years of my life, be it social, personal or professional!.
-                        </p>
-                        <div>
-                            <a href="resume/Resume_Amitabh_Ranjan.pdf" download="Amitabh-Ranjan-resume"><button class="btn btn-secondary">DOWNLOAD RESUME</button></a>
-                        </div>
-                    </div>
-                </div>
+      <section id="about" class="about" style="background: #00253e">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img
+              class="about-me-img"
+              src="images/Amit-Pic4.jpg"
+              alt="Amit-Pic2"
+            />
+          </div>
+          <div class="flex-1 right">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! I am Amitabh Ranjan</h3>
+            <p>
+              Having recently completed 24 weeks of full stack web development
+              bootcamp at Georgia tech in mid-February 2022, I feel fortunate
+              enough to have finally discovered my professional calling in the
+              field of software engineering. Though I have had brief stints in
+              fields ranging from investment banking to food industry, I believe
+              I always felt short of realizing my true potential. Though not
+              really intending to be a jack of all trades, with a Masters in
+              Business Administration, my 2.5+ years of promising pursuit as an
+              Analyst in Reference Data Client Process with Eclerx Services Ltd,
+              Pune (India) under capital market vertical for investment banking
+              client Credit-Suisse was abruptly cut short by unfortunate
+              personal circumstances beyond my control and since then I have
+              fulfilled varied profiles like supervising my family business,
+              working as an inventory manager in a liquor store, working as a
+              cashier/manager in a gas station and the latest being an Admin
+              Associate for a company dealing in custom food blend. Though each
+              professional role was as interesting as the one that followed
+              next, there was something amiss which I could not fathom but it
+              revealed upon me when I started coding and accomplished projects
+              in the bootcamp! Least expecting that the traits I had been honing
+              throughout my various work profiles would come in so handy one
+              day. To be honest, I had already anticipated this when during the
+              COVID-19 pandemic, I decided to upgrade my professional skills by
+              embarking on a sojourn that first saw me passing the ASTQB
+              foundation level exam in June 2020 and then the ASTQB Agile test-
+              all on a self-learned basis. But the quench had just started to
+              unfold and so I started to learn programming/coding on my own but
+              then realized that I needed to streamline my self-learning and the
+              24 weeks bootcamp at Georgia tech provided me just that and much
+              more. Though the bootcamp was extremely challenging for a beginner
+              like me, each assignment and project only fueled my penchant to
+              immerse in the coding field and now I value my innate skill of
+              being meticulous even more. In short, seeking new horizons,
+              awaiting new heralds to be ushered in the field of Software
+              Engineering with many new professional opportunities.
+            </p>
+
+            <div class="social">
+              <a href="https://github.com/Amit-Ranjan22"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/amitabh-ranjan-45549621a/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fab fa-google"></i></a>
             </div>
-        </header>
+          </div>
+        </div>
+      </section>
 
-        <section id="about" class="about" style="background: #00253e;">
-            <div class="container flex items-center about-inner-wrap">
-                <div class="flex-1">
-                    <img class="about-me-img" src="images/Amit-Pic4.jpg" alt="Amit-Pic2" />
-                </div>
-                <div class="flex-1 right">
-                    <h1>About <span>Me</span></h1>
-                    <h3>Hello! I am Amitabh Ranjan</h3>
-                    <p>
-                        Though I am relatively new to this field, I confess its really my
-                        "renaissance." Having worked in so many different profiles all these
-                        years, from being an analyst with an investment bank, associate
-                        admin with tortilla manufacturing company,to being an entrant in the
-                        IT field now, I think I have finally found my calling. Throughout my
-                        past jobs, there is one innate skill, in particular, about which I
-                        have been constantly been made aware of and that is my
-                        meticulousness. I believe its a happy marriage of my being
-                        meticulous with programming and the love for web development has
-                        started to blossom as a result.<br />
-                        Though the COVID-19 pandemic has been a nightmare for majority of
-                        the world, I salvaged an opportunity to begin a sojourn that first
-                        saw me passing the ASTQB foundation level exam in June 2020 and then
-                        the ASTQB Agile test- all on a self-learned basis. But the quench
-                        had just started to unfold and so I started learning programming on
-                        my own but then realized that I had to break this solitude of
-                        self-learning. The idea of -enrolling in a bootcamp was challenging
-                        at first but I decided to take the plunge because I needed to
-                        streamline my efforts at self-learning. And have never failed to
-                        cherish and relish every bit of knowledge gained and assignments
-                        undertaken so far.
-                    </p>
+      <section id="my-work" class="myProject">
+        <div class="container">
+          <h1 class="section-heading"><span>My Bootcamp</span> Projects</h1>
+          <p>Projects done for GeorgiaTech-Bootcamp</p>
 
-                    <div class="social">
-                        <a href="https://github.com/Amit-Ranjan22"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/amitabh-ranjan-45549621a/"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-google"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="my-work" class="myProject">
-            <div class="container">
-                <h1 class="section-heading"><span>My Bootcamp</span> Projects</h1>
-                <p>Projects done for GeorgiaTech-Bootcamp</p>
-
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/pet-adoption-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Pet Adoption Website</h1>
-                            </a>
-                            <span>December 11, 2021</span>
-                            <p>Application where people can find animals they would like to adopt as their pet. A place for people to post animals that
-                            need to be adopted.</p>
-                                
-                            <a href="https://evening-earth-50473.herokuapp.com/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Juliusm9791/Pet_Adopt.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/tmdb-movieapp-pic1.jpg" alt="tmdb-movie-app-pic">
-                        </div>
-                        <div class="card-content">
-                            <a href="https://github.com/Bmorrissey34/Movies-TV-Search.git" class="appName">
-                                <h1>Movie Search Engine</h1>
-                            </a>
-                            <span>October 13, 2021</span>
-                            <p>An online database which include information and statistics about movies and tv shows as well as their trailers for a sneak-peek</p>
-                            <a href="https://bmorrissey34.github.io/Movies-TV-Search/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Bmorrissey34/Movies-TV-Search" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/devlopers-blog-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Developer's Tech Blog</h1>
-                            </a>
-                            <span>December 06, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores
-                                perferendis iure doloremque sint odio, labore eius quisquam ad ratione, magnam
-                                perspiciatis aut
-                                cum
-                                voluptatum?</p>
-                            <a href="https://developer-tech-blog.herokuapp.com/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/ecommerce-backend-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>E-commerce Backend</h1>
-                            </a>
-                            <span>November 24, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://drive.google.com/file/d/1UEc5hvQAAuxqyTGxzqnkcdtRAW_BElTD/view?usp=sharing" class="appLink">Go To App Walk-through Video</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/E-Commerce_Back-End.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/emp-mgt-system-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Employee Management System</h1>
-                            </a>
-                            <span>November 17, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://drive.google.com/file/d/1hOi69mCsdODGOCEAvO48hb9JELP3OCwc/view?usp=sharing" class="appLink">Go To App Walk-through Video</a><br>
-                            <a href=" https://github.com/Amit-Ranjan22/Employee-Tracker.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/note-taker-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Note Taker</h1>
-                            </a>
-                            <span>November 09, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://my-note-taker-application.herokuapp.com/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Note_Taker.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/team-progile-generator-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Team Profile Generator</h1>
-                            </a>
-                            <span>November 03, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://drive.google.com/file/d/1JgqvgXJriIwR_xn97Vpb4QN1dfVoQ-5Y/view?usp=sharing" class="appLink">Go To App Walk-through Video</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Team_Profile_Generator.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/readme-generator-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>ReadMe Generator</h1>
-                            </a>
-                            <span>November 03, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://drive.google.com/drive/folders/1WBbxXSU68DAfJWVfzUWytGRsrgNmOwt8?usp=sharing" class="appLink">Go To App Walk-through Video</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/ReadMe-Generator.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/weather-dashboard-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Weather Dashboard</h1>
-                            </a>
-                            <span>October 06, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://amit-ranjan22.github.io/Weather-Dashboard/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Weather-Dashboard.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/day-planner-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Day Planner</h1>
-                            </a>
-                            <span>September 29, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://amit-ranjan22.github.io/Day-Scheduler/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Day-Scheduler.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/code-quiz-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Code Quiz</h1>
-                            </a>
-                            <span>September 22, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://amit-ranjan22.github.io/JavaScript-Quiz-App/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/JavaScript-Quiz-App.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper" style="height: 450px;">
-                            <img src="./images/password-generator-pic1.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#" class="appName">
-                                <h1>Password Generator</h1>
-                            </a>
-                            <span>September 14, 2021</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam repudiandae rerum et.
-                                Accusantium maiores perferendis iure doloremque sint odio, labore eius quisquam ad
-                                ratione,
-                                magnam perspiciatis aut cum voluptatum?</p>
-                            <a href="https://amit-ranjan22.github.io/Password_Generator/" class="appLink">Go To Deployed Application</a><br>
-                            <a href="https://github.com/Amit-Ranjan22/Password_Generator.git" class="gitHubLink">Go To GitHub Repo</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="skills" style="background: #00253e;">
-            <div class="container">
-                <h1 class="section-heading"><span>Skills</span> Acquired</h1>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/pet-adoption-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Pet Adoption Website</h1>
+                </a>
+                <span>December 11, 2021</span>
                 <p>
-                    Below are the skill I acquired while doing full-stack boot-camp and still working towards improvement
+                  Application where people can find animals they would like to
+                  adopt as their pet. A place for people to post animals that
+                  need to be adopted.
                 </p>
-                <div class="slider">
-                    <div class="slide">
-                        <h3>Html</h3>
-                        <img src="./images/html-tag-pic1.jpg" alt="" />
-                        <p>
-                            Worked on 14 projects for boot-camp where I applied the corresponding skill set. Considering I am new to this broadening field of coding, it was quite interesting and challenging to learn the technicalities and its application.
-                        </p>
-                        <span>- Amitabh Ranjan, Currently attending full-stack web-development Boot-camp offered by GeorgiaTech</span>
-                    </div>
-                    <div class="slide">
-                        <h3>CSS</h3>
-                        <img src="./images/css-pic1.jpg" alt="" />
-                        <p>
-                            Worked on 14 projects for boot-camp where I applied the corresponding skill set. Considering I am new to this broadening
-                            field of coding, it was quite interesting and challenging to learn the technicalities and its application.
-                        </p>
-                        <span>- Amitabh Ranjan, Currently attending full-stack web-development Boot-camp offered by GeorgiaTech</span>
-                    </div>
-                    <div class="slide">
-                        <h3>javaScript</h3>
-                        <img src="./images/javascript-pic1.jpg" alt="" />
-                        <p>
-                            Worked on 14 projects for boot-camp where I applied the corresponding skill set. Considering I am new to this broadening
-                            field of coding, it was quite interesting and challenging to learn the technicalities and its application.
-                        </p>
-                        <span>- Amitabh Ranjan, Currently attending full-stack web-development Boot-camp offered by GeorgiaTech</span>
-                    </div>
-                    <div class="slide">
-                        <h3>MySql</h3>
-                        <img src="./images/mysql-pic1.png" alt="" />
-                        <p>
-                            Worked on 14 projects for boot-camp where I applied the corresponding skill set. Considering I am new to this broadening
-                            field of coding, it was quite interesting and challenging to learn the technicalities and its application.
-                        </p>
-                        <span>- Amitabh Ranjan, Currently attending full-stack web-development Boot-camp offered by GeorgiaTech</span>
-                    </div>
-                    <div class="slide">
-                        <h3>Node Express.js</h3>
-                        <img src="./images/nodejs-express-pic1.jpg" alt="" />
-                        <p>
-                            Worked on 14 projects for boot-camp where I applied the corresponding skill set. Considering I am new to this broadening
-                            field of coding, it was quite interesting and challenging to learn the technicalities and its application.
-                        </p>
-                        <span>- Amitabh Ranjan, Currently attending full-stack web-development Boot-camp offered by GeorgiaTech</span>
-                    </div>
+
+                <a
+                  href="https://evening-earth-50473.herokuapp.com/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Juliusm9791/Pet_Adopt.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img
+                  src="./images/tmdb-movieapp-pic1.jpg"
+                  alt="tmdb-movie-app-pic"
+                />
+              </div>
+              <div class="card-content">
+                <a
+                  href="https://github.com/Bmorrissey34/Movies-TV-Search.git"
+                  class="appName"
+                >
+                  <h1>Movie Search Engine</h1>
+                </a>
+                <span>October 13, 2021</span>
+                <p>
+                  An online database which include information and statistics
+                  about movies and tv shows as well as their trailers for a
+                  sneak-peek
+                </p>
+                <a
+                  href="https://bmorrissey34.github.io/Movies-TV-Search/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Bmorrissey34/Movies-TV-Search"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/devlopers-blog-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Developer's Tech Blog</h1>
+                </a>
+                <span>December 06, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://developer-tech-blog.herokuapp.com/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/ecommerce-backend-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>E-commerce Backend</h1>
+                </a>
+                <span>November 24, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1UEc5hvQAAuxqyTGxzqnkcdtRAW_BElTD/view?usp=sharing"
+                  class="appLink"
+                  >Go To App Walk-through Video</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/E-Commerce_Back-End.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/emp-mgt-system-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Employee Management System</h1>
+                </a>
+                <span>November 17, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1hOi69mCsdODGOCEAvO48hb9JELP3OCwc/view?usp=sharing"
+                  class="appLink"
+                  >Go To App Walk-through Video</a
+                ><br />
+                <a
+                  href=" https://github.com/Amit-Ranjan22/Employee-Tracker.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/note-taker-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Note Taker</h1>
+                </a>
+                <span>November 09, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://my-note-taker-application.herokuapp.com/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Note_Taker.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/team-progile-generator-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Team Profile Generator</h1>
+                </a>
+                <span>November 03, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1JgqvgXJriIwR_xn97Vpb4QN1dfVoQ-5Y/view?usp=sharing"
+                  class="appLink"
+                  >Go To App Walk-through Video</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Team_Profile_Generator.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/readme-generator-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>ReadMe Generator</h1>
+                </a>
+                <span>November 03, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1WBbxXSU68DAfJWVfzUWytGRsrgNmOwt8?usp=sharing"
+                  class="appLink"
+                  >Go To App Walk-through Video</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/ReadMe-Generator.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/weather-dashboard-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Weather Dashboard</h1>
+                </a>
+                <span>October 06, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://amit-ranjan22.github.io/Weather-Dashboard/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Weather-Dashboard.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/day-planner-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Day Planner</h1>
+                </a>
+                <span>September 29, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://amit-ranjan22.github.io/Day-Scheduler/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Day-Scheduler.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/code-quiz-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Code Quiz</h1>
+                </a>
+                <span>September 22, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://amit-ranjan22.github.io/JavaScript-Quiz-App/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/JavaScript-Quiz-App.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper" style="height: 450px">
+                <img src="./images/password-generator-pic1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#" class="appName">
+                  <h1>Password Generator</h1>
+                </a>
+                <span>September 14, 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  quam repudiandae rerum et. Accusantium maiores perferendis
+                  iure doloremque sint odio, labore eius quisquam ad ratione,
+                  magnam perspiciatis aut cum voluptatum?
+                </p>
+                <a
+                  href="https://amit-ranjan22.github.io/Password_Generator/"
+                  class="appLink"
+                  >Go To Deployed Application</a
+                ><br />
+                <a
+                  href="https://github.com/Amit-Ranjan22/Password_Generator.git"
+                  class="gitHubLink"
+                  >Go To GitHub Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" style="background: #00253e">
+        <div class="container">
+          <h1 class="section-heading"><span>Skills</span> Acquired</h1>
+          <p>
+            Below are the skill I acquired while doing full-stack boot-camp and
+            still working towards improvement
+          </p>
+          <div class="slider">
+            <div class="slide">
+              <h3>Html</h3>
+              <img src="./images/html-tag-pic1.jpg" alt="" />
+              <p>
+                Worked on 14 projects for boot-camp where I applied the
+                corresponding skill set. Considering I am new to this broadening
+                field of coding, it was quite interesting and challenging to
+                learn the technicalities and its application.
+              </p>
+              <span
+                >- Amitabh Ranjan, Currently attending full-stack
+                web-development Boot-camp offered by GeorgiaTech</span
+              >
+            </div>
+            <div class="slide">
+              <h3>CSS</h3>
+              <img src="./images/css-pic1.jpg" alt="" />
+              <p>
+                Worked on 14 projects for boot-camp where I applied the
+                corresponding skill set. Considering I am new to this broadening
+                field of coding, it was quite interesting and challenging to
+                learn the technicalities and its application.
+              </p>
+              <span
+                >- Amitabh Ranjan, Currently attending full-stack
+                web-development Boot-camp offered by GeorgiaTech</span
+              >
+            </div>
+            <div class="slide">
+              <h3>javaScript</h3>
+              <img src="./images/javascript-pic1.jpg" alt="" />
+              <p>
+                Worked on 14 projects for boot-camp where I applied the
+                corresponding skill set. Considering I am new to this broadening
+                field of coding, it was quite interesting and challenging to
+                learn the technicalities and its application.
+              </p>
+              <span
+                >- Amitabh Ranjan, Currently attending full-stack
+                web-development Boot-camp offered by GeorgiaTech</span
+              >
+            </div>
+            <div class="slide">
+              <h3>MySql</h3>
+              <img src="./images/mysql-pic1.png" alt="" />
+              <p>
+                Worked on 14 projects for boot-camp where I applied the
+                corresponding skill set. Considering I am new to this broadening
+                field of coding, it was quite interesting and challenging to
+                learn the technicalities and its application.
+              </p>
+              <span
+                >- Amitabh Ranjan, Currently attending full-stack
+                web-development Boot-camp offered by GeorgiaTech</span
+              >
+            </div>
+            <div class="slide">
+              <h3>Node Express.js</h3>
+              <img src="./images/nodejs-express-pic1.jpg" alt="" />
+              <p>
+                Worked on 14 projects for boot-camp where I applied the
+                corresponding skill set. Considering I am new to this broadening
+                field of coding, it was quite interesting and challenging to
+                learn the technicalities and its application.
+              </p>
+              <span
+                >- Amitabh Ranjan, Currently attending full-stack
+                web-development Boot-camp offered by GeorgiaTech</span
+              >
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+
+      <section id="contactt-me" class="contact" style="background: #197278">
+        <div class="container">
+          <h1 class="section-heading">Contact <span>Me</span></h1>
+          <p>
+            Please use either of the below given information if you wish to
+            contact me
+          </p>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="background: #0a2472">
+                <div class="card-body">
+                  <h5 class="card-title">Call Me at:</h5>
+                  <p class="card-text">+1 678 979 6497</p>
                 </div>
-                <div class="slider-dots"></div>
+              </div>
             </div>
-        </section>
-
-        <section id="contactt-me" class="contact" style="background: #197278;">
-            <div class="container">
-                <h1 class="section-heading">Contact <span>Me</span></h1>
-                <p>Please use either of the below given information if you wish to contact me</p>
-                
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card" style="background: #0a2472;">
-                        <div class="card-body">
-                            <h5 class="card-title">Call Me at:</h5>
-                            <p class="card-text">+678 979 6497</p>
-                        </div>
-                    </div>
+            <div class="col-sm-6">
+              <div class="card" style="background: #0a2472">
+                <div class="card-body">
+                  <h5 class="card-title">Email me at:</h5>
+                  <p class="card-text">amitabh.ranjan22@gmail.com</p>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card" style="background: #0a2472;">
-                        <div class="card-body">
-                            <h5 class="card-title">Email me at:</h5>
-                            <p class="card-text">amitabh.ranjan22@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            </div>
-        </section>
-
-        <footer>
-            <img class="footer-logo" src="./images/logo-2.svg" alt="">
-            <div class="footer-socials">
-                <a href="#"><img src="./images/website.svg" alt=""></a>
-                <a href="#"><img src="./images/facebook.svg" alt=""></a>
-                <a href="#"><img src="./images/twitter.svg" alt=""></a>
-                <a href="#"><img src="./images/pintrest.svg" alt=""></a>
-                <a href="#"><img src="./images/instagram.svg" alt=""></a>
-
-            </div>
-            <div class="copyright">
-                Copyright ©️ 2021 Amitabh Ranjan. All Rights Reserved.
-            </div>
-            <div class="goToTop">
-                <a href="#main-nav">GO BACK TO TOP</a>
-            </div>
-
-        </footer>
+      <footer>
+        <img class="footer-logo" src="./images/logo-2.svg" alt="" />
+        <div class="footer-socials">
+          <a href="#"><img src="./images/website.svg" alt="" /></a>
+          <a href="#"><img src="./images/facebook.svg" alt="" /></a>
+          <a href="#"><img src="./images/twitter.svg" alt="" /></a>
+          <a href="#"><img src="./images/pintrest.svg" alt="" /></a>
+          <a href="#"><img src="./images/instagram.svg" alt="" /></a>
+        </div>
+        <div class="copyright">
+          Copyright ©️ 2021 Amitabh Ranjan. All Rights Reserved.
+        </div>
+        <div class="goToTop">
+          <a href="#main-nav">GO BACK TO TOP</a>
+        </div>
+      </footer>
     </div>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
